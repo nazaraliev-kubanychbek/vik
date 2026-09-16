@@ -1,28 +1,344 @@
 <!doctype html>
 <html lang="ky">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Дүйнөлүк Көчмөндөр Оюндары</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="page-enter">
-  <header class="site-header"><div class="container mx-auto px-6 nav-wrap">
-    <a class="brand" href="index.html"><span class="brand-mark">∞</span><span>КӨЧМӨНДӨР<small>ДҮЙНӨЛҮК ОЮНДАР</small></span></a>
-    <nav class="nav-links" aria-label="Негизги меню"><a class="active" href="index.html">Башкы бет</a><a href="жөнүндө.html">Оюндар жөнүндө</a><a href="спорт.html">Спорт</a><a href="маданият.html">Маданият</a><a href="галерея.html">Галерея</a></nav>
-    <button class="menu-toggle" aria-label="Менюну ачуу" aria-expanded="false">☰</button>
-  </div></header>
-  <nav class="mobile-menu" aria-label="Мобилдик меню"><a href="index.html">Башкы бет</a><a href="жөнүндө.html">Оюндар жөнүндө</a><a href="спорт.html">Спорт</a><a href="маданият.html">Маданият</a><a href="галерея.html">Галерея</a></nav>
-  <main>
-    <section class="hero"><div class="container mx-auto px-6 hero-content"><p class="eyebrow reveal">Биримдик. Ынтымак. Мурас.</p><h1 class="display-title reveal">Дүйнөлүк<br>Көчмөндөр<br>Оюндары</h1><p class="lead reveal">Кылымдарды карыткан көчмөн маданияттын духу, спорттун күчү жана элдердин достугу бир жерде тошот.</p><a class="button reveal" href="жөнүндө.html">Оюндар тууралуу <span>↗</span></a></div></section>
-    <section class="stats"><div class="container mx-auto px-6"><div class="stat-row reveal"><div class="stat"><strong data-counter="89">0</strong><span>өлкө</span></div><div class="stat"><strong data-counter="2000">0</strong><span>спортчу</span></div><div class="stat"><strong data-counter="37">0</strong><span>спорттун түрү</span></div></div></div></section>
-    <section class="section"><div class="container mx-auto px-6"><div class="section-head reveal"><div><p class="section-label">Окуянын өзөгү</p><h2 class="section-title">Көчмөн руху<br>жашай берет</h2></div><p class="section-intro">Оюндар ата-бабадан калган баалуулуктарды бүгүнкү дүйнө менен бириктирип, маданий көп түрдүүлүктү даңазалайт.</p></div><div class="news-grid"><article class="news-card reveal" style="background-image:url('https://images.unsplash.com/photo-1558980664-10ea1c4e2a52?auto=format&fit=crop&w=900&q=85')"><span class="eyebrow">2024 · Астана</span><h3>Ынтымактын жаңы тарыхы</h3><p>Көчмөндөрдүн салты дүйнөнүн төрт бурчунан келген конокторду бириктирди.</p></article><article class="news-card reveal" style="background-image:url('https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=85')"><span class="eyebrow">Кийинки жолугушуу</span><h3>Мурас муундан муунга</h3><p>Жаш муун үчүн спорт, өнөр жана жаратылыш менен гармония сабагы.</p></article><article class="news-card reveal" style="background-image:url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=85')"><span class="eyebrow">Кырчын</span><h3>Өнөрдүн мекени</h3><p>Этно-айылда боз үйдүн берекеси жана кол өнөрчүлүктүн керемети.</p></article></div></div></section>
-  </main>
-  <footer class="site-footer"><div class="container mx-auto px-6 footer-wrap"><a class="brand" href="index.html"><span class="brand-mark">∞</span><span>КӨЧМӨНДӨР<small>ДҮЙНӨЛҮК ОЮНДАР</small></span></a><p class="footer-note">Көчмөн цивилизациясынын баалуулуктарын сактаган эл аралык маданий-спорттук аянтча.</p><p class="footer-note">© 2026. Бардык укуктар корголгон.</p></div></footer>
-  <script src="js/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Дүйнөлүк көчмөндөр оюндары – Кыргызстандын улуттук маданияты, салттуу оюндар жана жаштар үчүн интерактивдүү маалымат порталы."
+    />
+    <title>Дүйнөлүк Көчмөндөр Оюндары</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Башкы бет">
+          <span class="brand-mark">∞</span>
+          <span class="brand-text">
+            КӨЧМӨНДӨР
+            <small>ДҮЙНӨЛҮК ОЮНДАР</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Негизги меню">
+          <a class="active" href="index.html">Башкы бет</a>
+          <a href="жөнүндө.html">Тарыхы</a>
+          <a href="спорт.html">Оюндар</a>
+          <a href="маданият.html">Маданият</a>
+          <a href="терминдер.html">Терминдер</a>
+          <a href="галерея.html">Галерея</a>
+        </nav>
+
+        <button class="nav-toggle" aria-label="Менюну ачуу" aria-expanded="false">☰</button>
+      </div>
+
+      <div class="mobile-menu" aria-label="Мобилдик меню">
+        <a href="index.html">Башкы бет</a>
+        <a href="жөнүндө.html">Тарыхы</a>
+        <a href="спорт.html">Оюндар</a>
+        <a href="маданият.html">Маданият</a>
+        <a href="терминдер.html">Терминдер</a>
+        <a href="галерея.html">Галерея</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="assets/images/hero/hero-poster.jpg"
+        >
+          <source src="https://videos.pexels.com/video-files/3329236/3329236-hd_1920_1080.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-inner">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Биримдик • Ынтымак • Мурас</p>
+            <h1>
+              Дүйнөлүк<br />
+              Көчмөндөр<br />
+              Оюндары
+            </h1>
+            <p class="lead">
+              Кыргыз элинин улуттук маданиятын, салт-санасын, мамлекеттик кыргыз тилин
+              жана көчмөн рухун заманбап, digital форматта жаштардын жүрөгүнө жакындатабыз.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="спорт.html">Оюндар менен таанышуу</a>
+              <a class="btn btn-secondary" href="терминдер.html">Викторина</a>
+            </div>
+            <div class="hero-metrics">
+              <span>Кыргыз тили</span>
+              <span>Салттуу спорту</span>
+              <span>Жаштарга арналган</span>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal">
+            <div class="panel-top">
+              <span class="panel-kicker">Эл аралык майрам</span>
+              <strong>2026</strong>
+            </div>
+            <h2>Көчмөн рухунун жаңырган доору</h2>
+            <ul>
+              <li>Кыргыз тили — сайттын негизги тили</li>
+              <li>Улуттук оюндар — тарыхы жана азыркы маңызы</li>
+              <li>Жаштар үчүн интерактивдүү билим</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-bar">
+        <div class="container stats-grid reveal">
+          <div class="stat-box">
+            <strong data-counter="40">0</strong>
+            <span>өлкө</span>
+          </div>
+          <div class="stat-box">
+            <strong data-counter="2000">0</strong>
+            <span>спортчу</span>
+          </div>
+          <div class="stat-box">
+            <strong data-counter="12">0</strong>
+            <span>салттуу оюн</span>
+          </div>
+          <div class="stat-box">
+            <strong data-counter="100">0</strong>
+            <span>Кыргызча термин</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="tarikh" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <div>
+              <p class="section-label">Тарыхы</p>
+              <h2>Көчмөндөр оюндарынын келип чыгышы</h2>
+            </div>
+            <p class="section-summary">
+              Тарыхтан бери көчмөндөрдүн жашоо стили, жаратылышка болгон урматы,
+              күч-жарак, ыймандуулук жана достук — улуттук оюндардын негизин түзөт.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-marker">01</div>
+              <div class="timeline-year">2014</div>
+              <div class="timeline-content">
+                <h3>Биринчи эл аралык жол</h3>
+                <p>
+                  Дүйнөлүк көчмөндөр оюндары Кыргызстандын Ысык-Көл аймагында биринчи жолу
+                  жашоонун, спорттун жана маданияттын биртутас майрамына айланды.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-marker">02</div>
+              <div class="timeline-year">2016</div>
+              <div class="timeline-content">
+                <h3>Достук кеңейип, руху күчтү</h3>
+                <p>
+                  Бет алыстыгы, тил жана маданияттан улам байланган елдердин катышуусу
+                  оюндун дүйнөлүк маанисин даңазалады.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-marker">03</div>
+              <div class="timeline-year">2020</div>
+              <div class="timeline-content">
+                <h3>Цифралык заманга кошулуу</h3>
+                <p>
+                  Социалдык желелер, медиа жана видеолор аркылуу оюндардын маңызы дүйнөгө
+                  кенже жайылып, жас муунга жакыныра баштады.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-marker">04</div>
+              <div class="timeline-year">2026</div>
+              <div class="timeline-content">
+                <h3>Кыргыз тили жана мурастың жаңырышы</h3>
+                <p>
+                  Оюндарда Кыргыз тили, салт жана заманауи цифралык формат ар кандай
+                  муунга бирге, айкын жана ыктымалдуу формада түшүндүрүлүүдө.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="oyunlar" class="section games-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <div>
+              <p class="section-label">Оюндар жана Эрежелер</p>
+              <h2>Салттуу жанрлардын күчтүү дүйнөсү</h2>
+            </div>
+            <p class="section-summary">
+              Ар бир оюнда ыргак, көңүл, чабандуулук жана тактикалык ой жүгүртүү бар.
+              Алардын эрежелери — элдин жашоо маданиятынын жүрөгү.
+            </p>
+          </div>
+
+          <div id="gamesGrid" class="games-grid"></div>
+        </div>
+      </section>
+
+      <section id="terminler" class="section glossary-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <div>
+              <p class="section-label">Улуттук терминдер</p>
+              <h2>Сөздөрдүн мааниси — кулкүл боюнча рух</h2>
+            </div>
+            <p class="section-summary">
+              Кыргыз тилин байытып, улуттук сөздөрдү туура колдонуу менен жаштарга салтты
+              түшүнүктүү, кызыктуу жана актуалдуу ыкма менен үйрөтөбүз.
+            </p>
+          </div>
+
+          <div class="glossary-layout reveal">
+            <div id="termList" class="term-list" aria-label="Терминдер тизмеси"></div>
+            <aside id="termDetail" class="term-detail" aria-live="polite"></aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="viktorina" class="section quiz-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <div>
+              <p class="section-label">Викторина</p>
+              <h2>Маданиятты жана тилин текшерүү</h2>
+            </div>
+            <p class="section-summary">
+              Көчмөндөр оюндары тууралуу билимиңизди текшериңиз. Жоопторуңуз жаркырап,
+              бааларыңызга ылайык ар кандай титул аласыз.
+            </p>
+          </div>
+
+          <div id="quizCard" class="quiz-card reveal"></div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section media-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <div>
+              <p class="section-label">Медиа галерея</p>
+              <h2>Сүрөттөр жана видеолор менен рух</h2>
+            </div>
+            <p class="section-summary">
+              Этно-айыл, ат спорту, музика, салттуу мелдештер жана ыргактар — бардыгы
+              бири-бирине жакын, жылуулуктуу, эстетикалык форматта көрсөтүлөт.
+            </p>
+          </div>
+
+          <div class="media-grid">
+            <article class="media-card reveal">
+              <div class="media-frame">
+                <iframe
+                  src="https://www.youtube.com/embed/_gFKp9bG3po?si=8jjIMZi4P8kucnoh"
+                  title="World Nomad Games video"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="media-info">
+                <span>Видео</span>
+                <h3>Көчмөн рухунун күчү</h3>
+              </div>
+            </article>
+
+            <article class="media-card reveal">
+              <img
+                src="assets/images/hero/hero-poster.jpg"
+                alt="Көчмөндөр оюндары"
+              />
+              <div class="media-info">
+                <span>Сүрөт</span>
+                <h3>Майрамдык дасторкон</h3>
+              </div>
+            </article>
+
+            <article class="media-card reveal">
+              <img
+                src="assets/images/culture/yurt-village.jpg"
+                alt="Боз үй"
+              />
+              <div class="media-info">
+                <span>Маданият</span>
+                <h3>Боз үйдүн берекеси</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-guide-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <div>
+              <p class="section-label">Сайт боюнча жол</p>
+              <h2>Мурасты өзүңүз изилдеңиз</h2>
+            </div>
+            <p class="section-summary">Ар бир баракта көчмөн дүйнөсүнүн өзүнчө бир тарабы ачылат.</p>
+          </div>
+          <div class="info-grid">
+            <a class="info-card reveal" href="жөнүндө.html"><span class="info-number">01</span><h3>Тарыхын окуңуз</h3><p>Оюндардын жаралышы, өнүгүшү жана эл аралык мааниси менен таанышыңыз.</p><span class="info-link">Баракка өтүү →</span></a>
+            <a class="info-card reveal" href="маданият.html"><span class="info-number">02</span><h3>Маданиятты сезиңиз</h3><p>Боз үй, кол өнөрчүлүк, меймандостук жана жайлоо дүйнөсүн көрүңүз.</p><span class="info-link">Баракка өтүү →</span></a>
+            <a class="info-card reveal" href="терминдер.html"><span class="info-number">03</span><h3>Билимиңизди сынаңыз</h3><p>Улуттук терминдерди үйрөнүп, интерактивдүү викторинада өзүңүздү текшериңиз.</p><span class="info-link">Баракка өтүү →</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+            <a class="brand" href="index.html">
+            <span class="brand-mark">∞</span>
+            <span class="brand-text">
+              КӨЧМӨНДӨР
+              <small>ДҮЙНӨЛҮК ОЮНДАР</small>
+            </span>
+          </a>
+        </div>
+
+        <p>Кыргыз тили, маданият жана спорт — биздин муунга бир жол.</p>
+        <p>© 2026. Бардык укуктар корголгон.</p>
+      </div>
+    </footer>
+
+    <div id="gameModal" class="modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" aria-label="Жабуу">×</button>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>

@@ -1,6 +1,127 @@
 <!doctype html>
 <html lang="ky">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Галерея | Көчмөндөр оюндары</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="css/style.css"></head>
-<body class="page-enter"><header class="site-header"><div class="container mx-auto px-6 nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">∞</span><span>КӨЧМӨНДӨР<small>ДҮЙНӨЛҮК ОЮНДАР</small></span></a><nav class="nav-links"><a href="index.html">Башкы бет</a><a href="жөнүндө.html">Оюндар жөнүндө</a><a href="спорт.html">Спорт</a><a href="маданият.html">Маданият</a><a class="active" href="галерея.html">Галерея</a></nav><button class="menu-toggle" aria-label="Менюну ачуу" aria-expanded="false">☰</button></div></header><nav class="mobile-menu"><a href="index.html">Башкы бет</a><a href="жөнүндө.html">Оюндар жөнүндө</a><a href="спорт.html">Спорт</a><a href="маданият.html">Маданият</a><a href="галерея.html">Галерея</a></nav>
-<main><section class="page-hero"><div class="container mx-auto px-6"><p class="eyebrow reveal">Көз ирмемдер</p><h1 class="section-title reveal">Көчмөндүн<br>жарык элеси</h1></div></section><section class="section"><div class="container mx-auto px-6"><div class="section-head reveal"><div><p class="section-label">Сүрөт баян</p><h2 class="section-title">Эсте калган<br>көз ирмемдер</h2></div><p class="section-intro">Күч, кубаныч жана достук бир кадрга баткан учурлар. Сүрөттү басып, толук экрандан көрүңүз.</p></div><div class="gallery-grid"><button class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1533130061792-64b345e4a833?auto=format&fit=crop&w=900&q=85" alt="Кең талаа жана тоолор"></button><button class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1558980664-10ea1c4e2a52?auto=format&fit=crop&w=900&q=85" alt="Көчмөндөрдүн майрамы"></button><button class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=85" alt="Тоолуу жаратылыш"></button><button class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?auto=format&fit=crop&w=900&q=85" alt="Чабандес жана ат"></button><button class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=900&q=85" alt="Кырчын жайлоосу"></button><button class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1602837385569-08ac19ec83b8?auto=format&fit=crop&w=900&q=85" alt="Кол өнөрчүлүк"></button></div></div></section></main>
-<div class="lightbox" role="dialog" aria-label="Сүрөттү чоңойтуп көрүү"><button class="lightbox-close" aria-label="Жабуу">×</button><img src="" alt=""></div><footer class="site-footer"><div class="container mx-auto px-6 footer-wrap"><a class="brand" href="index.html"><span class="brand-mark">∞</span><span>КӨЧМӨНДӨР<small>ДҮЙНӨЛҮК ОЮНДАР</small></span></a><p class="footer-note">Ар бир сүрөттө — бир бүтүн дүйнө.</p><p class="footer-note">© 2026. Бардык укуктар корголгон.</p></div></footer><script src="js/main.js"></script></body></html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Көчмөндөр оюндарынын сүрөт галереясы." />
+    <title>Галерея | Дүйнөлүк Көчмөндөр Оюндары</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="page-enter">
+    <header class="site-header">
+        <div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">∞</span><span
+                    class="brand-text">КӨЧМӨНДӨР<small>ДҮЙНӨЛҮК ОЮНДАР</small></span></a>
+            <nav class="main-nav"><a href="index.html">Башкы бет</a><a href="жөнүндө.html">Тарыхы</a><a
+                    href="спорт.html">Оюндар</a><a href="маданият.html">Маданият</a><a
+                    href="терминдер.html">Терминдер</a><a class="active" href="галерея.html">Галерея</a></nav><button
+                class="nav-toggle" aria-label="Менюну ачуу" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-menu"><a href="index.html">Башкы бет</a><a href="жөнүндө.html">Тарыхы</a><a
+                href="спорт.html">Оюндар</a><a href="маданият.html">Маданият</a><a href="терминдер.html">Терминдер</a><a
+                href="галерея.html">Галерея</a></div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow reveal">Көз ирмемдер</p>
+                <h1 class="reveal">Көчмөндүн<br />жарык элеси</h1>
+                <p class="page-intro reveal">Күч, кубаныч жана достук бир кадрга баткан учурлар.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div>
+                        <p class="section-label">Сүрөт баян</p>
+                        <h2>Эсте калган көз ирмемдер</h2>
+                    </div>
+                    <p class="section-summary">Сүрөттү басып, толук экрандан көрүңүз.</p>
+                </div>
+                <div class="gallery-grid">
+                    <a class="gallery-item reveal" data-fancybox="gallery"
+                        href="assets/images/culture/ethno-village.jpg"
+                        data-caption="Көчмөндөрдүн этно-айылы">
+                        <img src="assets/images/culture/ethno-village.jpg"
+                            alt="Көчмөндөрдүн этно-айылы" />
+                    </a>
+                    <a class="gallery-item reveal" data-fancybox="gallery"
+                        href="assets/images/culture/yurt-village.jpg"
+                        data-caption="Боз үйлөр жайгашкан этно-айыл">
+                        <img src="assets/images/culture/yurt-village.jpg"
+                            alt="Боз үйлөр жайгашкан этно-айыл" />
+                    </a>
+                    <a class="gallery-item reveal" data-fancybox="gallery"
+                        href="assets/images/sports/kok-boru.jpg"
+                        data-caption="Көк бөрү оюнунан көз ирмем">
+                        <img src="assets/images/sports/kok-boru.jpg"
+                            alt="Көк бөрү оюнунан көз ирмем" />
+                    </a>
+                    <a class="gallery-item reveal" data-fancybox="gallery"
+                        href="assets/images/sports/er-enish.jpg"
+                        data-caption="Эр эңиштеги чабандестер">
+                        <img src="assets/images/sports/er-enish.jpg"
+                            alt="Эр эңиштеги чабандестер" />
+                    </a>
+                    <a class="gallery-item reveal" data-fancybox="gallery"
+                        href="assets/images/sports/alysh.jpg"
+                        data-caption="Алыш күрөшү">
+                        <img src="assets/images/sports/alysh.jpg"
+                            alt="Алыш күрөшү" />
+                    </a>
+                    <a class="gallery-item reveal" data-fancybox="gallery"
+                        href="assets/images/culture/hospitality.jpg"
+                        data-caption="Кыргыз элинин меймандостугу">
+                        <img src="assets/images/culture/hospitality.jpg"
+                            alt="Кыргыз элинин меймандостугу" />
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div>
+                        <p class="section-label">Сүрөт баян</p>
+                        <h2>Ар бир кадрдагы окуя</h2>
+                    </div>
+                    <p class="section-summary">Галереяны карап жатып, сүрөттөгү адамды, жерди жана аракетти байкаңыз.
+                    </p>
+                </div>
+                <div class="info-grid">
+                    <article class="info-card reveal"><span class="info-number">01</span>
+                        <h3>Жер</h3>
+                        <p>Тоолор менен кең талаа көчмөн жашоосунун табигый сахнасы болуп саналат.</p>
+                    </article>
+                    <article class="info-card reveal"><span class="info-number">02</span>
+                        <h3>Адам</h3>
+                        <p>Спортчу, уста жана мейман — маданиятты бүгүн жашатып жаткан адамдар.</p>
+                    </article>
+                    <article class="info-card reveal"><span class="info-number">03</span>
+                        <h3>Кыймыл</h3>
+                        <p>Оюндун динамикасы, аттын дүбүртү жана кол өнөрчүнүн эмгеги бир баянга айланат.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-wrap"><a class="brand" href="index.html"><span class="brand-mark">∞</span><span
+                    class="brand-text">КӨЧМӨНДӨР<small>ДҮЙНӨЛҮК ОЮНДАР</small></span></a>
+            <p>Ар бир сүрөттө — бир бүтүн дүйнө.</p>
+            <p>© 2026. Бардык укуктар корголгон.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
