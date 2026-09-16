@@ -6,6 +6,7 @@
   --card: #ffffff;
   --surface: #eaf5f7;
   --navy: #0b2636;
+  --navy-deep: #051824;
   --cyan: #2ad2d9;
   --cyan-deep: #0a8ea1;
   --gold: #d9ad5f;
@@ -96,6 +97,23 @@ button {
   margin: 0;
   color: var(--muted);
   line-height: 1.8;
+}
+
+.section-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--cyan-deep);
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.section-more-link:hover {
+  color: var(--gold);
+  transform: translateX(4px);
 }
 
 .site-header {
@@ -575,11 +593,16 @@ button {
 }
 
 .term-detail {
-  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(234,245,247,0.9));
+  position: sticky;
+  top: 100px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(234,245,247,0.96));
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: clamp(1.4rem, 3vw, 2rem);
-  box-shadow: 0 16px 36px rgba(9, 35, 44, 0.06);
+  box-shadow: 0 16px 36px rgba(9, 35, 44, 0.08);
+  backdrop-filter: blur(10px);
 }
 
 .term-detail h3 {
@@ -1441,10 +1464,11 @@ a.info-card {
 .lightbox.open { display: grid; }
 .lightbox img { max-width: min(1100px, 92vw); max-height: 82vh; object-fit: contain; }
 .lightbox-close { position: absolute; top: 1.5rem; right: 2rem; border: 0; background: none; color: white; font-size: 2rem; cursor: pointer; }
-.site-footer { padding: 3rem 0; color: rgba(255,255,255,0.65); background: var(--navy-deep); }
-.footer-wrap { display: flex; justify-content: space-between; gap: 2rem; align-items: start; }
+.site-footer { padding: 3.5rem 0; color: rgba(255, 255, 255, 0.88); background: var(--navy-deep, #051824); border-top: 1px solid rgba(255, 255, 255, 0.1); }
+.footer-wrap { display: flex; justify-content: space-between; gap: 2rem; align-items: center; }
 .footer-wrap .brand { color: white; }
-.footer-note { max-width: 300px; font-size: 0.72rem; line-height: 1.7; }
+.footer-wrap p { margin: 0; color: rgba(255, 255, 255, 0.85); font-size: 0.88rem; line-height: 1.6; }
+.footer-note { max-width: 320px; font-size: 0.8rem; line-height: 1.7; color: rgba(255, 255, 255, 0.75); }
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.8s ease, transform 0.8s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 .page-enter { animation: pageEnter 0.8s ease both; }
