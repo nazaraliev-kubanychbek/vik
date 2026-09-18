@@ -510,123 +510,143 @@ const games = [
 const glossaryData = [
   {
     word: 'Ынтымак',
+    category: 'Баалуулуктар',
     short: 'Биримдик, достук жана жалпы максат',
     definition: 'Көчмөндөрдүн жашоосунда жалпы максат, тил, адеп-ахлак жана өз ара түшүнүшүү элди бириктирет. Бул сөз улуттук маданияттын негизин түзөт.',
-    usage: '«Биздин күчүбүз — ынтымакта жана биримдикте.»'
+    usage: '«Биздин күчүбүз — ынтымакта жана биримдикте».'
   },
   {
     word: 'Кырчын',
+    category: 'Жер жана турак жай',
     short: 'Жайлоо, көчмөндөрдүн мекени',
     definition: 'Көчмөндөрдүн турак жайына, мал багууга жана айылдык жашоосуна байланыштуу касиеттүү конуш. Кырчын — элдин турмушунун жана рухунун өзөгү.',
-    usage: '«Кырчын жайлоосунда улуттук рух жана кут өкүм сүрөт.»'
+    usage: '«Кырчын жайлоосунда улуттук рух жана кут өкүм сүрөт».'
   },
   {
     word: 'Боз үй',
+    category: 'Жер жана турак жай',
     short: 'Улуттук турак жай, руханий мекен',
     definition: 'Көчмөндөрдүн турак жайынын символикалык түрү. Боз үй — меймандостуктун, урмат-сыйдын жана салт-санаанын ажырагыс үлгүсү.',
-    usage: '«Боз үйдүн ичинде конок тосулуп, салт-санаа даңазаланат.»'
+    usage: '«Боз үйдүн ичинде конок тосулуп, салт-санаа даңазаланат».'
   },
   {
     word: 'Көк бөрү',
+    category: 'Улуттук спорт',
     short: 'Ат спортунун туу чокусу',
     definition: 'Шамдагайлыкты, туруктуулукту жана атка ээлик кылууну талап кылган улуттук ат спорту.',
-    usage: '«Көк бөрү — кыргыз элинин эр жүрөктүүлүгүнүн символу.»'
+    usage: '«Көк бөрү — кыргыз элинин эр жүрөктүүлүгүнүн символу».'
   },
   {
     word: 'Эр эңиш',
+    category: 'Улуттук спорт',
     short: 'Ат үстүндөгү мелдеш өнөрү',
     definition: 'Ат үстүндөгү күрөштүн өзгөчө түрү. Мында балбандардан шамдагайлык, тең салмактуулук жана чыдамкайлык талап кылынат.',
-    usage: '«Эр эңиш — жигиттердин күчүн жана айласын сынайт.»'
+    usage: '«Эр эңиш — жигиттердин күчүн жана айласын сынайт».'
   },
   {
     word: 'Тогуз коргоол',
+    category: 'Акыл оюндары',
     short: 'Элдик интеллектуалдык оюн',
     definition: 'Логикалык, стратегиялык жана математикалык ой жүгүртүүнү өнүктүргөн байыркы көчмөндөр оюну.',
-    usage: '«Тогуз коргоол — акыл менен сабырдуулуктун мелдеши.»'
+    usage: '«Тогуз коргоол — акыл менен сабырдуулуктун мелдеши».'
   },
   {
     word: 'Алыш',
+    category: 'Улуттук спорт',
     short: 'Белбоо күрөшү',
     definition: 'Кыргыз элинин салттуу күрөшүнүн түрү. Мында балбандар атайын белбоодон кармап күрөшүшөт.',
-    usage: '«Алыш күрөшүндө таза техника жана намыс бааланат.»'
+    usage: '«Алыш күрөшүндө таза техника жана намыс бааланат».'
   },
   {
     word: 'Ат чабыш',
+    category: 'Улуттук спорт',
     short: 'Узак аралыкка жарышуу',
     definition: 'Аттардын чыдамкайлыгын жана чабандестин тактикасын сынаган алыс аралыктагы ат жарышы.',
-    usage: '«Ат чабышта күлүктөрдүн тапталганы байкалат.»'
+    usage: '«Ат чабышта күлүктөрдүн тапталганы байкалат».'
   },
   {
     word: 'Оодарыш',
+    category: 'Улуттук спорт',
     short: 'Атчан эңишүү өнөрү',
     definition: 'Эки чабандес ат үстүндө атаандашын тең салмактан чыгарып, оодарып түшүрүүгө багытталган мелдеш.',
-    usage: '«Оодарышта шамдагайлык менен тең салмак негизги.»'
+    usage: '«Оодарышта шамдагайлык менен тең салмак негизги».'
   },
   {
     word: 'Салбуурун',
+    category: 'Аңчылык жана жаныбарлар',
     short: 'Мергенчилик маданияты',
     definition: 'Бүркүт, ылачын салуу, тайган агытуу жана жаа атуу өнөрлөрүн камтыган байыркы аңчылык салты.',
-    usage: '«Салбуурунда адам менен табияттын гармониясы көрүнөт.»'
+    usage: '«Салбуурунда адам менен табияттын гармониясы көрүнөт».'
   },
   {
     word: 'Түндүк',
+    category: 'Жер жана турак жай',
     short: 'Боз үйдүн туу чокусу',
     definition: 'Боз үйдүн туу чокусундагы тегерек жыгач алкак. Жарык киргизүүчү жана биримдикти билдирүүчү ыйык белги.',
-    usage: '«Түндүгүбүз ачык, коломтобуз өчпөсүн.»'
+    usage: '«Түндүгүбүз ачык, коломтобуз өчпөсүн».'
   },
   {
     word: 'Шырдак',
+    category: 'Өнөр жана кол өнөрчүлүк',
     short: 'Кол өнөрчүлүк кийизи',
     definition: 'Кыргыз аялдарынын кол өнөрчүлүк чеберчилигинен жаралган, түркүн оюм-чийимдери бар кийиз килем.',
-    usage: '«ЮНЕСКОнун мурастарына кирген шырдак — улуттук сыймык.»'
+    usage: '«ЮНЕСКОнун мурастарына кирген шырдак — улуттук сыймык».'
   },
   {
     word: 'Комуз',
+    category: 'Өнөр жана кол өнөрчүлүк',
     short: 'Үч кылдуу салттуу аспап',
     definition: 'Өрүк жыгачынан чабылып жасалган кыргыздын эң белгилүү улуттук чертме музыкалык аспабы.',
-    usage: '«Комуздун күүсү кылымдардын үнүн жеткирет.»'
+    usage: '«Комуздун күүсү кылымдардын үнүн жеткирет».'
   },
   {
     word: 'Ак калпак',
+    category: 'Өнөр жана кол өнөрчүлүк',
     short: 'Улуттук баш кийим',
     definition: 'Ак кийизден жасалган, Ала-Тоонун чокусун элестеткен кыргыз эркектеринин улуттук баш кийими.',
-    usage: '«Ак калпак — Ала-Тоонун жана абийирдин символу.»'
+    usage: '«Ак калпак — Ала-Тоонун жана абийирдин символу».'
   },
   {
     word: 'Манас',
+    category: 'Оозеки мурас',
     short: 'Улуу баатырдык эпос',
     definition: 'Кыргыз элинин тарыхын, философиясын, үрп-адатын камтыган дүйнөдөгү эң көлөмдүү баатырдык эпос.',
-    usage: '«Манас эпосу — кыргыз рухунун туу чокусу.»'
+    usage: '«Манас эпосу — кыргыз рухунун туу чокусу».'
   },
   {
     word: 'Бешбармак',
+    category: 'Улуттук тамак-аш',
     short: 'Сыйлуу конок тамагы',
     definition: 'Улуттук меймандостук салтында конокторго тартуулануучу тууралган эт менен камырдан турган даам.',
-    usage: '«Кыргыз дасторкону бешбармаксыз толук болбойт.»'
+    usage: '«Кыргыз дасторкону бешбармаксыз толук болбойт».'
   },
   {
     word: 'Кымыз',
+    category: 'Улуттук тамак-аш',
     short: 'Бээнин дарылык суусундугу',
     definition: 'Жайлоодо бээнин сүтүн атайын сабага ачытып даярдалуучу ден соолукка пайдалуу улуттук суусундук.',
-    usage: '«Кымыз — адамга кубат берген асыл суусундук.»'
+    usage: '«Кымыз — адамга кубат берген асыл суусундук».'
   },
   {
     word: 'Тайган',
+    category: 'Аңчылык жана жаныбарлар',
     short: 'Кыргыздын мерген ити',
     definition: 'Тоолуу шартта ылдам чуркоого жана аң уулоого ылайыкташкан кыргыздын байыркы породалуу ити.',
-    usage: '«Тайган — салбуурун мелдешинин ажырагыс катышуучусу.»'
+    usage: '«Тайган — салбуурун мелдешинин ажырагыс катышуучусу».'
   },
   {
     word: 'Мурас',
+    category: 'Баалуулуктар',
     short: 'Муундан муунга калган казына',
     definition: 'Ата-бабалардан калган улуттук баалуулуктар, каада-салт, оозеки чыгармачылык жана маданий байлык.',
-    usage: '«Мурасты сактоо — келечекке жол ачуу.»'
+    usage: '«Мурасты сактоо — келечекке жол ачуу».'
   },
   {
     word: 'Меймандостук',
+    category: 'Баалуулуктар',
     short: 'Элдик тарбия жана адеп',
     definition: 'Үйгө келген конокту улутуна жана жашына карабай төргө чыгарып, сыйлоо салты.',
-    usage: '«Кыргыз элинин меймандостугу дүйнөгө белгилүү.»'
+    usage: '«Кыргыз элинин меймандостугу дүйнөгө белгилүү».'
   }
 ];
 
@@ -765,43 +785,88 @@ const renderGlossary = () => {
   const isTermsPage = path.includes('терминдер');
   const termsToRender = isTermsPage ? glossaryData : glossaryData.slice(0, 4);
 
-  list.innerHTML = termsToRender
-    .map(
-      (item, index) => `
-        <button class="term-button ${index === 0 ? 'active' : ''}" data-term-index="${index}">
-          <span class="term-word">${item.word}</span>
-          <span class="term-short">${item.short}</span>
-        </button>
-      `
-    )
-    .join('');
+  let filters = document.getElementById('termFilters');
+  if (isTermsPage && !filters) {
+    const browser = document.createElement('div');
+    browser.className = 'term-browser';
+    list.parentNode.insertBefore(browser, list);
+    browser.appendChild(list);
+    filters = document.createElement('div');
+    filters.id = 'termFilters';
+    filters.className = 'term-filters';
+    filters.setAttribute('aria-label', 'Терминдердин категориялары');
+    browser.insertBefore(filters, list);
+  }
+  const categories = ['Баары', ...new Set(termsToRender.map((item) => item.category))];
+  let activeCategory = 'Баары';
 
-  const updateDetail = (index) => {
-    const item = termsToRender[index];
-    if (!item) return;
-    detail.innerHTML = `
-      <span class="tag">Улуттук түшүнүк</span>
-      <h3>${item.word}</h3>
-      <p>${item.definition}</p>
-      <p style="margin-top: 1rem; font-weight: 700; color: var(--navy);">Мисал: ${item.usage}</p>
-    `;
+  const renderTerms = () => {
+    const filteredTerms = activeCategory === 'Баары'
+      ? termsToRender
+      : termsToRender.filter((item) => item.category === activeCategory);
 
-    list.querySelectorAll('.term-button').forEach((btn) => {
-      btn.classList.toggle('active', Number(btn.dataset.termIndex) === index);
+    list.innerHTML = filteredTerms
+      .map(
+        (item, index) => `
+          <button class="term-button ${index === 0 ? 'active' : ''}" data-term-index="${index}">
+            <span class="term-word">${item.word}</span>
+            <span class="term-short">${item.short}</span>
+          </button>
+        `
+      )
+      .join('');
+
+    const updateDetail = (index) => {
+      const item = filteredTerms[index];
+      if (!item) return;
+      detail.innerHTML = `
+        <span class="tag">${item.category}</span>
+        <h3>${item.word}</h3>
+        <p>${item.definition}</p>
+        <p style="margin-top: 1rem; font-weight: 700; color: var(--navy);">Мисал: ${item.usage}</p>
+      `;
+
+      list.querySelectorAll('.term-button').forEach((btn) => {
+        btn.classList.toggle('active', Number(btn.dataset.termIndex) === index);
+      });
+    };
+
+    list.querySelectorAll('.term-button').forEach((button) => {
+      button.addEventListener('click', () => {
+        const index = Number(button.dataset.termIndex);
+        updateDetail(index);
+        if (window.innerWidth <= 980) {
+          detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      });
     });
+
+    updateDetail(0);
   };
 
-  list.querySelectorAll('.term-button').forEach((button) => {
-    button.addEventListener('click', () => {
-      const index = Number(button.dataset.termIndex);
-      updateDetail(index);
-      if (window.innerWidth <= 980) {
-        detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      }
-    });
-  });
+  if (filters) {
+    filters.innerHTML = categories
+      .map(
+        (category, index) => `
+          <button class="term-filter ${index === 0 ? 'active' : ''}" type="button" data-category="${category}">
+            ${category}
+          </button>
+        `
+      )
+      .join('');
 
-  updateDetail(0);
+    filters.querySelectorAll('.term-filter').forEach((button) => {
+      button.addEventListener('click', () => {
+        activeCategory = button.dataset.category;
+        filters.querySelectorAll('.term-filter').forEach((filter) => {
+          filter.classList.toggle('active', filter === button);
+        });
+        renderTerms();
+      });
+    });
+  }
+
+  renderTerms();
 };
 
 const renderQuiz = () => {
